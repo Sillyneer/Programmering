@@ -9,21 +9,39 @@ print("vad skulle du vilja köpa?")
 
 product = input()
 
-icecream = 20
-hotdog = 15
-soda = 15
-candy = 10 
+icecream_price = 20
+hotdog_price = 15
+soda_price = 15
+candy_price = 10 
 
-if product == icecream:
+if product == "glass":
     print("hur många glassar vill du ha")
+    amount = input()
+    amount = int(amount)
 
-elif product == hotdog:
+    print("det blir", amount * icecream_price,"kr")
+
+elif product == "varmkorv":
     print("hur många varmkorvar vill du ha")
+    amount = input()
+    amount = int(amount)
 
-elif product == soda:
+    print("det blir", amount * hotdog_price,"kr")
+
+elif product == "läsk":
     print("hur mycket läsk vill du ha")
+    amount = input()
+    amount = int(amount)
 
-elif product == candy:
-    print("hur mycket godis vill du ha")
+    print("det blir", amount * soda_price,"kr")
+
+elif product == "godis":
+    print("hur mycket hg godis vill du ha")
+    amount = input()
+    amount = int(amount)
+
+    print("det blir", amount * candy_price,"kr")
+
+
 
 
