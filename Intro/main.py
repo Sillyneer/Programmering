@@ -12,4 +12,4 @@ print("hur gammal är du?")
 
 print("WoW!", namn, "är ", ålder," är gammal")
 
-print("om 10 år är du", ålder +     10, )
+print("om 10 år är du", ålder + 10, )
