@@ -41,7 +41,3 @@ elif product == "godis":
     amount = int(amount)
 
     print("Det blir", amount * candy_price,"kr")
-
-
-
-
